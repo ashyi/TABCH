@@ -6,6 +6,7 @@
 
 #Opend by 
 # [Rashid](https://telegram.me/Rashidalizada1)
+# [AND]
 # [AMIRALI](https://telegram.me/MardeMajazi)
 
 Fuck be_bak😂
