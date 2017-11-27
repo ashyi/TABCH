@@ -1,0 +1,44 @@
+if [ "$1" = "panel" ]; then
+	while true; do
+		lua Base/Panel.lua
+	done
+elif [ "$1" = "tabchi" ]; then
+		./Data/tg -p bot-1 -s Base/Tabchi.lua
+		elif [ "$1" = "tabchi2" ]; then
+		./Data/tg -p bot-2 -s Base/Tabchi2.lua
+		elif [ "$1" = "tabchi3" ]; then
+		./Data/tg -p bot-3 -s Base/Tabchi3.lua
+elif [ "$1" = "install" ]; then
+sudo apt-get -y update && sudo apt-get -y upgrade 
+      sudo apt-get --force-yes install git wget screen tmux libconfig9 libevent-dev libjansson4 libstdc++6 lua-socket lua5.2 liblua5.2 make unzip redis-server software-properties-common g++
+      sudo apt-get -y update && sudo apt-get -y upgrade
+      sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test && sudo apt-get update && sudo apt-get install -y gcc-4.9 g++-4.9 && sudo update-alternatives —install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 —slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+      sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove
+      sudo service redis-server restart
+   chmod +x Data/tg
+  elif [ "$1" = "auto" ]; then
+		tmux kill-session -t "InlineTabchi"
+   tmux kill-session -t "InlinePanel"
+  
+ tmux new-session -d -s "InlineTabchi" "./launch tabchi"
+   tmux detach -s "InlineTabchi"
+   echo "Tabchi now Running!"
+   echo "Waiting 5 sec for runing Tabchi2!"
+    sleep 5
+	tmux new-session -d -s "InlineTabchi2" "./launch tabchi2"
+   tmux detach -s "InlineTabchi2"
+   echo "Tabchi2 now Running!"
+   echo "Waiting 5 sec for runing Tabchi3!"
+    sleep 5
+	tmux new-session -d -s "InlineTabchi3" "./launch tabchi3"
+   tmux detach -s "InlineTabchi3"
+   echo "Tabchi3 now Running!"
+   echo "Waiting 5 sec for runing Inline Panel!"
+    sleep 5
+    tmux new-session -d -s "InlinePanel" "./launch panel"
+    tmux detach -s "InlinePanel"
+    echo "Panel now Running!"
+	sleep 5
+    echo "The End!"
+    echo "@BG_TeaM"
+fi
