@@ -5,7 +5,7 @@
 [کانال ما](https://telegram.me/TeleSuperiorTm)
 
 #Opend by 
-# [Rashid](https://telegram.me/Rashidalizada1) and
+# [Rashid](https://telegram.me/Rashidalizada1)
 # [AMIRALI](https://telegram.me/MardeMajazi)
 
 Fuck be_bak😂
