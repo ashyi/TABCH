@@ -4,7 +4,7 @@
 
 
 #Opend 
-by# [Rashid](https://telegram.me/Rashidalizada1) 
+# [Rashid](https://telegram.me/Rashidalizada1) 
 # [AMIRALI](https://telegram.me/MardeMajazi)
 
 Fuck be_bak😂
