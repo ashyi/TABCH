@@ -9,4 +9,4 @@
 # AND
 # [AMIRALI](https://telegram.me/MardeMajazi)
 
-Fuck be_bak😂
+# Fuck BG Team😂
