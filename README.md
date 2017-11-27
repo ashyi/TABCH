@@ -9,5 +9,5 @@
 Fuck be_bak😂
 اموزش های بیش تر در کانال
 
-# [مانال ما](https://telegram.me/TeleSuperiorTm)
+# [کانال ما](https://telegram.me/TeleSuperiorTm)
 
